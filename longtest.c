@@ -27,10 +27,10 @@ int main(int argc, char **argv)
 	printf("stack addresses\n");
 	printf("---------------\n");
 	printf("addr of buf is ..   %u\n", &buf[0]);
-	printf("addr of buf is ..   %u\n", &buf1[0]);
-	printf("addr of buf is ..   %u\n", &buf2[0]);
-	printf("addr of buf is ..   %u\n", &buf3[0]);
-	printf("addr of buf is ..   %u\n", &buf4[0]);
+	printf("addr of buf1 is ..   %u\n", &buf1[0]);
+	printf("addr of buf2 is ..   %u\n", &buf2[0]);
+	printf("addr of buf3 is ..   %u\n", &buf3[0]);
+	printf("addr of buf4 is ..   %u\n", &buf4[0]);
 	printf("addr of byte1 is .. %u\n", &secretbyte1);
 	printf("addr of byte2 is .. %u\n", &secretbyte2);
 	printf("\n\n\n");
