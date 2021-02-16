@@ -40,7 +40,9 @@ int main(int argc, char **argv)
 	stripCRLF(buf);
 
 	// output the password and the control vars
-	printf("\n\nYou entered    [%s]\n", buf);
+	printf("\n\nYou entered    [%s]\n", buf1);
+	printf("\n\nbuf2 contains  [%s]\n", buf2);
+	printf("\n\nbuf2 contains  [%s]\n", buf3);
 	printf("secret byte1 = [%c] (%x in hex)\n", secretbyte1, secretbyte1);
 	printf("secret byte2 = [%c] (%x in hex)\n", secretbyte2, secretbyte2);
 
