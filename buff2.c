@@ -35,9 +35,9 @@ int main(int argc, char **argv)
 	printf("Enter password: \n");
 
 	// get the password input
-	gets(buf);
+	gets(buf1);
 	//fgets(buf, sizeof(buf), stdin);
-	stripCRLF(buf);
+	stripCRLF(buf1);
 
 	// output the password and the control vars
 	printf("\n\nYou entered    [%s]\n", buf1);
