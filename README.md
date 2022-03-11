@@ -21,7 +21,8 @@ cd InfoSecLabBuff/
 
 ls -l
 
-gcc -o buff1 buff1.c
+gcc buff1.c -o buff1 -fno-stack-protector -z execstack -no-pie
+
 
 ls -l
 
@@ -29,3 +30,5 @@ ls -l
 
 ./buff1
 
+## hint ...
+a1b1c1d1e1f1g1h1i1j1k1l1m1n1o1p1q1r1s1t1u1v1w1x1y1z1a2b2c2d2e2f2g2h2i2j2k2l2m2n2o2p2q2r2s2t2u2v2w2x2y2z2
