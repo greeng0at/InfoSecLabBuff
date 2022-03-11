@@ -7,11 +7,7 @@ docker run -it ubuntu bash
 
 apt update
 
-apt install nano
-
-apt install gcc
-
-apt install git
+apt install nano gcc git
 
 ## Download and compile the code
 
